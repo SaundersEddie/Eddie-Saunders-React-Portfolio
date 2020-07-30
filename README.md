@@ -1,3 +1,19 @@
+# Eddie Saunders React Portfolio
+
+## Introduction
+
+This is a small web based porfolio designed to demonstrate my full stack skill set and allow potential employers to view my resume and contact me.
+
+# Table of Contents
+
+## User Story
+
+```
+As an employer I wish to see a portfolio
+The portfolio must be built using the React framework
+The portfolio must also use a CSS framework beside Bootstrap
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
