@@ -42,6 +42,6 @@ The code for this portfolio can be accessed [here](https://github.com/SaundersEd
 
 ## Credits
 
-This portfolio was designed and coded by [Eddie Saunders]{mailto:edwyn.saunders@outlook.com}
+This portfolio was designed and coded by {mailto:edwyn.saunders@outlook.com}
 
 ## Screenshots
