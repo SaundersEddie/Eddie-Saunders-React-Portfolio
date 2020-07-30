@@ -1,10 +1,18 @@
 # Eddie Saunders React Portfolio
 
-## Introduction
+## Description
 
 This is a small web based porfolio designed to demonstrate my full stack skill set and allow potential employers to view my resume and contact me.
 
-# Table of Contents
+## Table of Contents
+
+- [User Story](#User%20Story)
+- [Build Status](#Build%20Status)
+- [Technology](#Code%20Style%20and%20Technology)
+- [Use](#Use)
+- [Download](#Code%20Repository)
+- [Credits](#Credits)
+- [Screenshots](#Screenshots)
 
 ## User Story
 
@@ -14,71 +22,26 @@ The portfolio must be built using the React framework
 The portfolio must also use a CSS framework beside Bootstrap
 ```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Build Status
 
-## Available Scripts
+Passed testing 30th July 2020
 
-In the project directory, you can run:
+## Code Style and Technology
 
-### `npm start`
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). </br>
+This project used [Trailwind CSS](https://tailwindcss.com/)</br>
+HTML5, CSS3, JavaScript
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Use
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This portfolio can be viewed [here](https://eddie-saunders.herokuapp.com/)
 
-### `npm test`
+## Code Repository
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The code for this portfolio can be accessed [here](https://github.com/SaundersEddie/Eddie-Saunders-React-Portfolio)
 
-### `npm run build`
+## Credits
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This portfolio was designed and coded by [Eddie Saunders]{mailto:edwyn.saunders@outlook.com}
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Screenshots
