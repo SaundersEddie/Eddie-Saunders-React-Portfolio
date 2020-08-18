@@ -1,3 +1,12 @@
+body {
+  background-color: beige;
+}
+
+myHeaderFont {
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+}
+
 .App {
   text-align: center;
 }

@@ -1,5 +1,19 @@
 /* Our Header css files to make it sticky */
 
+.myHeaderFont {
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+}
+
+.myHeader {
+  background-color: beige;
+}
+
+.socialMediaIcon {
+  max-width: 50px;
+  max-height: 50px;
+}
+
 .sticky-wrapper {
   position: relative;
   height: 3rem; /* We need to change this value */
