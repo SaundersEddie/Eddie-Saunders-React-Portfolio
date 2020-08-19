@@ -1,5 +1,6 @@
 import React from "react";
 import EddieImage from "../../assets/Images/Eddie_ProfilePic.png";
+import HappeningsImage from "../../assets/Images/happenings.png";
 
 import "./body.css";
 
@@ -22,14 +23,15 @@ const Body = () => {
         facilties pushed me to move onto pastures new.
       </p>
       <p>
-        {" "}
+        <br></br>
         In 1998 I moved to the USA and started my career fresh, working in the
         IT field for UPS, although I also looked after a small workforce
         managament group and done the odd bit of QA type work on proprietary
-        systems being used at the time. 15 years later I had to opportunity to
+        systems being used at the time. 18 years later I had to opportunity to
         relocate to Cary, NC to work on automation and human emulation projects
         for a company where I remained until 2019.
       </p>
+      <br></br>
       <p>
         When my contract ended, I decided to take a small break while
         considering where to go next, cue January 2020 when I decided to go into
@@ -39,8 +41,21 @@ const Body = () => {
         technologies and code were pretty much a red raw reversal of what I'd
         been doing prior, we'll see where this leads.
       </p>
+      <br></br>
       <hr></hr>
+      <br></br>
+      <h1 className="text-center myTitleText">My Experience</h1>
 
+      <h1 className="text-center myTitleText">My Projects</h1>
+      <div className="myProjectImages">
+        <a
+          href="https://what-happenings.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={HappeningsImage} alt="Happenings App" />
+        </a>
+      </div>
       <h1>All your base are belong to us</h1>
       <h1>All your base are belong to us</h1>
       <h1>All your base are belong to us</h1>

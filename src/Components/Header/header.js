@@ -12,7 +12,7 @@ import "./header.css";
 const Header = () => {
   return (
     <div className="myHeader sticky top-0 flex mb-4">
-      <div className="4-1/5 socialMediaIcon">
+      <div className="w-1/5 socialMediaIcon">
         <a
           href="https://github.com/SaundersEddie"
           target="_blank"
@@ -21,7 +21,7 @@ const Header = () => {
           <img src={GithubLogo} alt="Eddies Github" />
         </a>
       </div>
-      <div className="4-1/5 socialMediaIcon">
+      <div className="w-1/5 socialMediaIcon">
         <a
           href="https://facebook.com/EdwynSaunders"
           target="_blank"
@@ -30,7 +30,7 @@ const Header = () => {
           <img src={FacebookLogo} alt="Eddies Facebook" />
         </a>
       </div>
-      <div className="4-1/5 socialMediaIcon">
+      <div className="w-1/5 socialMediaIcon">
         <a
           href="https://www.linkedin.com/in/edwyn-saunders/"
           target="_blank"
@@ -39,12 +39,12 @@ const Header = () => {
           <img src={LinkedInLogo} alt="Eddies LinkedIn" />
         </a>
       </div>
-      <div className="4-1/5 socialMediaIcon">
+      <div className="w-1/5 socialMediaIcon">
         <a href="mailto:edwyn.saunders@outlook.com">
           <img src={EmailIcon} alt="Email Eddie" />
         </a>
       </div>
-      <div className="4-1/5 socialMediaIcon">
+      <div className="w-1/5 socialMediaIcon">
         <a href={Pdf} target="_blank" rel="noopener noreferrer">
           <img src={ResumeLogo} alt="Eddie Resume" />
         </a>
