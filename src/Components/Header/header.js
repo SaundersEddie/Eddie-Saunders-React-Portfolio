@@ -1,8 +1,8 @@
 import React from "react";
-import EmailIcon from "../../assets/Images/EmailIcon.png";
-import FacebookLogo from "../../assets/Images/FacebookIcon.png";
+import EmailIcon from "../../assets/Images/emailicon.png";
+import FacebookLogo from "../../assets/Images/facebookicon.png";
 import GithubLogo from "../../assets/Images/gitHubLogo.png";
-import LinkedInLogo from "../../assets/Images/LinkedInIcon.png";
+import LinkedInLogo from "../../assets/Images/linkedInIcon.png";
 import ResumeLogo from "../../assets/Images/resumeLogo.png";
 import Pdf from "../../assets/documents/EddieSaundersResume.pdf";
 
