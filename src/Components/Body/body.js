@@ -44,6 +44,9 @@ const Body = () => {
       <br></br>
       <hr></hr>
       <br></br>
+      <h1 className="text-center myTitleText">My github stats</h1>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaundersEddie"></img>
+      <img src="https://github-readme-stats.vercel.app/api?username=SaundersEddie"></img>
       <h1 className="text-center myTitleText">My Experience</h1>
 
       <h1 className="text-center myTitleText">My Projects</h1>
@@ -56,6 +59,7 @@ const Body = () => {
           <img src={HappeningsImage} alt="Happenings App" />
         </a>
       </div>
+
       <h1>All your base are belong to us</h1>
       <h1>All your base are belong to us</h1>
       <h1>All your base are belong to us</h1>
