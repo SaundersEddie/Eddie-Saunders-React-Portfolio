@@ -42,7 +42,8 @@ const Body = () => {
       <br></br>
       <hr></hr>
       <br></br>
-      <h1 className="text-center myTitleText">My github stats</h1>
+      <h1 className="text-center myTitleText">My GitHub stats</h1>
+      <p>As a general rule, I try to push code at least once per day if I'm not travelling</p>
 
       <img
         className="image-center"
@@ -53,8 +54,22 @@ const Body = () => {
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaundersEddie"
       ></img>
 
-      <h1 className="text-center myTitleText">My Experience</h1>
+      <br></br>
+      <hr></hr>
+      <br></br>
 
+      <h1 className="text-center myTitleText">My Experience</h1>
+          <p> I have experience in the following programming languages and technologies</p>
+          <ul>
+            <li>Javascript</li>
+            <li>HTML, CSS</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>Python</li>
+            <li>Selenium</li>
+            <li>Assembler</li>
+
+          </ul>
       <h1 className="text-center myTitleText">My Projects</h1>
       <div className="myProjectImages">
         <a

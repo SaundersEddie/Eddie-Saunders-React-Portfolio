@@ -5,9 +5,11 @@ import GithubLogo from "../../assets/Images/gitHubLogo.png";
 import LinkedInLogo from "../../assets/Images/linkedInIcon.png";
 import ResumeLogo from "../../assets/Images/resumeLogo.png";
 import Pdf from "../../assets/documents/EddieSaundersResume.pdf";
+import { GrLinkedin } from "react-icons/gr";
 
 import "./header.css";
 
+// GrLinkedin
 // <div className="sticky top-0 bg-white-600 flex mb-4">
 const Header = () => {
   return (
