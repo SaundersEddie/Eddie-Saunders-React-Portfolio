@@ -68,8 +68,11 @@ const Body = () => {
             <li>Python</li>
             <li>Selenium</li>
             <li>Assembler</li>
-
           </ul>
+
+      <br></br>
+      <hr></hr>
+      <br></br>
       <h1 className="text-center myTitleText">My Projects</h1>
       <div className="myProjectImages">
         <a
@@ -80,6 +83,10 @@ const Body = () => {
           <img src={HappeningsImage} alt="Happenings App" />
         </a>
       </div>
+      <br></br>
+      <hr></hr>
+      <br></br>
+
     </div>
   );
 };

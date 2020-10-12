@@ -10,6 +10,7 @@
 }
 
 .socialMediaIcon {
+  padding: 5px 1px;
   opacity: 0.95;
   max-width: 50px;
   max-height: 50px;
@@ -17,6 +18,8 @@
 
 .socialMediaIcon:hover {
   opacity: 1.0;
+  max-width: 60px;
+  max-height: 60px;
 }
 .sticky-wrapper {
   position: relative;
