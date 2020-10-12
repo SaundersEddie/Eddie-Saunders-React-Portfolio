@@ -17,10 +17,8 @@
 .myProjectImages {
   max-width: 500px;
   max-height: 500px;
-  /* border: 1px solid black; */
-  /* padding: 5px; */
   margin: 100px;
-  border-radius: 5%;
+  /* border-radius: 5%; */
 }
 
 .image-center {
@@ -33,7 +31,7 @@
 p {
   /* float: left; */
   padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px 10px;
+  margin: 5px 10px;
   font-family: "Roboto", sans-serif;
   font-size: large;
   color: olive;

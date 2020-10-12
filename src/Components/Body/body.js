@@ -11,7 +11,7 @@ const Body = () => {
         Please Allow Me to Introduce Myself...
       </h1>
       <h1 className="text-center myTitleText">Eddie Saunders</h1>
-      <br></br>
+      
       <img className="eddieImage" src={EddieImage} />
       <p classname="testPadding">
         I started coding way back in 1983, when the in thing was 6510A (6502)
@@ -23,7 +23,6 @@ const Body = () => {
         facilties pushed me to move onto pastures new.
       </p>
       <p>
-        <br></br>
         In 1998 I moved to the USA and started my career fresh, working in the
         IT field for UPS, although I also looked after a small workforce
         managament group and done the odd bit of QA type work on proprietary
@@ -31,7 +30,6 @@ const Body = () => {
         relocate to Cary, NC to work on automation and human emulation projects
         for a company where I remained until 2019.
       </p>
-      <br></br>
       <p>
         When my contract ended, I decided to take a small break while
         considering where to go next, cue January 2020 when I decided to go into
