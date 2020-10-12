@@ -13,7 +13,7 @@ const Body = () => {
       <h1 className="text-center myTitleText">Eddie Saunders</h1>
       <br></br>
       <img className="eddieImage" src={EddieImage} />
-      <p>
+      <p classname="testPadding">
         I started coding way back in 1983, when the in thing was 6510A (6502)
         Machine Code on a Commodore 64, after working on the Commodore 64 for
         many years I turned my attention to the wonderful world of 16Bit and
