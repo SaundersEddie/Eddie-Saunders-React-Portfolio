@@ -10,10 +10,14 @@
 }
 
 .socialMediaIcon {
+  opacity: 0.95;
   max-width: 50px;
   max-height: 50px;
 }
 
+.socialMediaIcon:hover {
+  opacity: 1.0;
+}
 .sticky-wrapper {
   position: relative;
   height: 3rem; /* We need to change this value */
