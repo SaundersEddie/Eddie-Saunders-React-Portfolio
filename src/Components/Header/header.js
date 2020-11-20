@@ -10,9 +10,8 @@ import "./header.css";
 
 const Header = () => {
   return (
-    // <div className = "container">
-   <div className="page-header">
-      <div className="socialMediaIcon">
+<div className = "myNavbar">
+    <div className="socialMediaIcon">
         <a
           href="https://github.com/SaundersEddie"
           target="_blank"
@@ -49,9 +48,8 @@ const Header = () => {
           <img className="img-fluid rounded mx-auto" src={ResumeLogo} alt="Eddie Resume" />
         </a>
       </div>
-    </div>
-    // </div>
-  );
+</div>
+    );
 };
 
 export default Header;
