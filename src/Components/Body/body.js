@@ -12,7 +12,7 @@ const Body = () => {
       </h1>
       <h1 className="text-center myTitleText">Eddie Saunders</h1>
       
-      <img className="eddieImage" src={EddieImage} />
+      <img className="eddieImage" src={EddieImage} alt="Eddie" />
       <p classname="testPadding">
         I started coding way back in 1983, when the in thing was 6510A (6502)
         Machine Code on a Commodore 64, after working on the Commodore 64 for
@@ -48,10 +48,12 @@ const Body = () => {
       <img
         className="image-center"
         src="https://github-readme-stats.vercel.app/api?username=SaundersEddie"
+        alt="Eddie Github Stats"
       ></img>
       <img
         className="image-center"
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaundersEddie"
+        alt="Email Stats"
       ></img>
 
       <br></br>
@@ -92,3 +94,4 @@ const Body = () => {
 };
 
 export default Body;
+

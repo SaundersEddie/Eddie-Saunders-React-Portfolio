@@ -1,4 +1,6 @@
-body {
+/* Testing Bootswatch */
+
+/* body {
   background-color: beige;
   margin-left: 100px;
   margin-right: 100px;
@@ -34,7 +36,7 @@ myHeaderFont {
 }
 
 /* Bootstrap container equivilent */
-.container {
+/* .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -54,4 +56,4 @@ myHeaderFont {
   .container {
     width: 1170px;
   }
-}
+} */
