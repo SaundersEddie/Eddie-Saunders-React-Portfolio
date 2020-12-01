@@ -1,6 +1,7 @@
 import React from "react";
 import EddieImage from "../../assets/Images/Eddie_ProfilePic.png";
 import HappeningsImage from "../../assets/Images/happenings.png";
+import DCMetroImage from "../../assets/Images/DC_Metro.jpg";
 
 import "./body.css";
 
@@ -48,6 +49,7 @@ const Body = () => {
         src="https://github-readme-stats.vercel.app/api?username=SaundersEddie"
         alt="Eddie Github Stats"
       ></img>
+      <br/>
       <img
         className="image-center"
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaundersEddie"
@@ -61,13 +63,20 @@ const Body = () => {
       <h1 className="text-center myTitleText">My Experience</h1>
           <p> I have experience in the following programming languages and technologies</p>
           <ul>
+            <li><h5>Languages</h5></li>
             <li>Javascript</li>
             <li>HTML, CSS</li>
             <li>C</li>
             <li>C#</li>
             <li>Python</li>
             <li>Selenium</li>
+            <li>eggPlant Suite</li>
             <li>Assembler</li>
+            <br/>
+            <li><h5>Frameworks</h5></li>
+            <li>React</li>
+            <li>Handlebars</li>
+            <li>JQuery</li>
           </ul>
 
       <br></br>
@@ -83,6 +92,17 @@ const Body = () => {
           <img className = "img-fluid" src={HappeningsImage} alt="Happenings App" />
         </a>
       </div>
+
+      <div className="myProjectImages">
+        <a
+          href="https://github.com/SaundersEddie/dc-metro-status"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className = "img-fluid" src={DCMetroImage} alt="DC Status App" />
+        </a>
+      </div>
+
       <br></br>
       <hr></hr>
       <br></br>

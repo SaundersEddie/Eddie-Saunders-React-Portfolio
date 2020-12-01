@@ -21,6 +21,10 @@
   /* border-radius: 5%; */
 }
 
+.myProjectImages:hover {
+  border: 1px solid black;
+}
+
 .image-center {
   display: block;
   margin-left: auto;
