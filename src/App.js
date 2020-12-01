@@ -3,7 +3,7 @@ import Header from "./Components/Header/header";
 import Body from "./Components/Body/body";
 import Footer from "./Components/Footer/footer";
 
-// import 'bootswatch/dist/slate/bootstrap.min.css'; // Added this :boom:
+import 'bootswatch/dist/lux/bootstrap.min.css'; // Added this :boom:
 import './App.css';
 
 function App() {

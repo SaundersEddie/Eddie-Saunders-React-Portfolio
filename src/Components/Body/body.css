@@ -25,6 +25,10 @@
   border: 1px solid black;
 }
 
+.card:hover {
+  border: 1px solid black;
+}
+
 .image-center {
   display: block;
   margin-left: auto;
