@@ -84,9 +84,9 @@ const Body = () => {
       <br></br>
       <h1 className="text-center myTitleText">My Projects</h1>
 
-      <div className="row">
+      <div className="row justify-content-center">
 
-      <div className="card col-lg-3" style={{width: '18rem', padding: '15px', margin: '15px' }}>
+      <div className="card col-lg-3" style={{padding: '15px', margin: '15px' }}>
         <img className="card-img-top" src={HappeningsImage} alt="Happenings App"/>
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
@@ -100,7 +100,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="card col-lg-3" style={{width: '18rem', padding: '15px', margin: '15px'}}>
+      <div className="card col-lg-3" style={{padding: '15px', margin: '15px'}}>
         <img className="card-img-top" src={DCMetroImage} alt="DC Status App"/>
         <div className="card-body">
           <h5 className="card-title">DC Metro Status</h5>
@@ -114,7 +114,39 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="card col-lg-3" style={{width: '18rem', padding: '15px', margin: '15px'}}>
+      <div className="card col-lg-3" style={{padding: '15px', margin: '15px'}}>
+        <img className="card-img-top" src={DCMetroImage} alt="DC Status App"/>
+        <div className="card-body">
+          <h5 className="card-title">DC Metro Status</h5>
+          <p className="card-text">A small JQuery app to pull info from DC Metro and Weather APIs</p>
+          <a 
+            href="https://saunderseddie.github.io/dc-metro-status/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-primary">DC Metro Status 
+            </a>
+        </div>
+      </div>
+    </div>
+
+
+      <div className="row justify-content-center">
+
+      <div className="card col-lg-3" style={{padding: '15px', margin: '15px' }}>
+        <img className="card-img-top" src={HappeningsImage} alt="Happenings App"/>
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a 
+            href="https://what-happenings.herokuapp.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-primary">Link 
+            </a>
+        </div>
+      </div>
+
+      <div className="card col-lg-3" style={{padding: '15px', margin: '15px'}}>
         <img className="card-img-top" src={DCMetroImage} alt="DC Status App"/>
         <div className="card-body">
           <h5 className="card-title">DC Metro Status</h5>
@@ -128,7 +160,19 @@ const Body = () => {
         </div>
       </div>
 
-
+      <div className="card col-lg-3" style={{padding: '15px', margin: '15px'}}>
+        <img className="card-img-top" src={DCMetroImage} alt="DC Status App"/>
+        <div className="card-body">
+          <h5 className="card-title">DC Metro Status</h5>
+          <p className="card-text">A small JQuery app to pull info from DC Metro and Weather APIs</p>
+          <a 
+            href="https://saunderseddie.github.io/dc-metro-status/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="btn btn-primary">DC Metro Status 
+            </a>
+        </div>
+      </div>
     </div>
 
 
