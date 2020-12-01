@@ -10,7 +10,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-<div className = "myNavbar">
+    <div className = "myNavbar">
     <div className="socialMediaIcon">
         <a
           href="https://github.com/SaundersEddie"
@@ -49,7 +49,7 @@ const Header = () => {
         </a>
       </div>
 </div>
-    );
-};
+  );
+}
 
 export default Header;
