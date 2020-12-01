@@ -33,11 +33,9 @@ const Body = () => {
       <p>
         When my contract ended, I decided to take a small break while
         considering where to go next, cue January 2020 when I decided to go into
-        Full Stack Web Development (really, this was my spouses idea, I think
-        she wanted me to do something other than gardening with visions of
-        feeding the neighbourhood), this was quite a leap considering the
+        Full Stack Web Development, this was quite a leap considering the
         technologies and code were pretty much a red raw reversal of what I'd
-        been doing prior, we'll see where this leads.
+        been doing prior.
       </p>
       <br></br>
       <hr></hr>
@@ -82,7 +80,7 @@ const Body = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={HappeningsImage} alt="Happenings App" />
+          <img className = "img-fluid" src={HappeningsImage} alt="Happenings App" />
         </a>
       </div>
       <br></br>

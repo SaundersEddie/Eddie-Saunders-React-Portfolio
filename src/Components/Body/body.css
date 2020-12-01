@@ -15,9 +15,9 @@
 }
 
 .myProjectImages {
-  max-width: 500px;
-  max-height: 500px;
-  margin: 100px;
+  max-width: 30%;
+  max-height: 40%;
+  margin: 3%;
   /* border-radius: 5%; */
 }
 
