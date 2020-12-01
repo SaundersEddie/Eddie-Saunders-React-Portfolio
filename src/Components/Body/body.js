@@ -84,18 +84,18 @@ const Body = () => {
       <br></br>
       <h1 className="text-center myTitleText">My Projects</h1>
 
-      <div className="row justify-content-center">
+      <div className="row justify-content-center container">
 
       <div className="card col-lg-3" style={{padding: '15px', margin: '15px' }}>
-        <img className="card-img-top" src={HappeningsImage} alt="Happenings App"/>
+        <img className="card-img-top" src={HappeningsImage} alt="myCRUD App"/>
         <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 className="card-title">CRUD App</h5>
+          <p className="card-text">Simple HTML/CSS/JS only CRUD app. No database setup</p>
           <a 
-            href="https://what-happenings.herokuapp.com/" 
+            href="https://saunderseddie.github.io/myDemoCRUD/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="btn btn-primary">Link 
+            className="btn btn-primary">myCRUD
             </a>
         </div>
       </div>
@@ -117,20 +117,20 @@ const Body = () => {
       <div className="card col-lg-3" style={{padding: '15px', margin: '15px'}}>
         <img className="card-img-top" src={DCMetroImage} alt="DC Status App"/>
         <div className="card-body">
-          <h5 className="card-title">DC Metro Status</h5>
-          <p className="card-text">A small JQuery app to pull info from DC Metro and Weather APIs</p>
+          <h5 className="card-title">CRUD utilizing MERN</h5>
+          <p className="card-text">Heroku hosted CRUD app using MERN, with database being stored on mongoDB Atlas </p>
           <a 
-            href="https://saunderseddie.github.io/dc-metro-status/" 
+            href="https://bp-mern.herokuapp.com/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="btn btn-primary">DC Metro Status 
+            className="btn btn-primary">MERN CRUD 
             </a>
         </div>
       </div>
     </div>
 
 
-      <div className="row justify-content-center">
+      <div className="row justify-content-center container">
 
       <div className="card col-lg-3" style={{padding: '15px', margin: '15px' }}>
         <img className="card-img-top" src={HappeningsImage} alt="Happenings App"/>
