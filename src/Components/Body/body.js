@@ -2,6 +2,8 @@ import React from "react";
 import EddieImage from "../../assets/Images/Eddie_ProfilePic.png";
 import HappeningsImage from "../../assets/Images/happenings.png";
 import DCMetroImage from "../../assets/Images/DC_Metro.jpg";
+import JSOnlyCRUDImage from '../../assets/Images/JS_OnlyCRUD.jpg';
+import MERNCRUDImage from '../../assets/Images/MERN_CRUD.jpg';
 
 import "./body.css";
 
@@ -85,7 +87,7 @@ const Body = () => {
       <h1 className="text-center myTitleText">My Projects</h1>
       <div className="row justify-content-center container">
       <div className="card col-lg-3" style={{padding: '15px', margin: '15px' }}>
-        <img className="card-img-top" src={HappeningsImage} alt="myCRUD App"/>
+        <img className="card-img-top" src={JSOnlyCRUDImage} alt="myCRUD App"/>
         <div className="card-body">
           <h5 className="card-title">CRUD App</h5>
           <p className="card-text">Simple HTML/CSS/JS only CRUD app. No database setup</p>
@@ -111,7 +113,7 @@ const Body = () => {
       </div>
 
       <div className="card col-lg-3" style={{padding: '15px', margin: '15px'}}>
-        <img className="card-img-top" src={DCMetroImage} alt="DC Status App"/>
+        <img className="card-img-top" src={MERNCRUDImage} alt="MERN CRUD App"/>
         <div className="card-body">
           <h5 className="card-title">CRUD utilizing MERN</h5>
           <p className="card-text">Heroku hosted CRUD app using MERN, with database being stored on mongoDB Atlas </p>
