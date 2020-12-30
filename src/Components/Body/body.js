@@ -5,6 +5,7 @@ import DCMetroImage from "../../assets/Images/DC_Metro.jpg";
 import JSOnlyCRUDImage from '../../assets/Images/JS_OnlyCRUD.jpg';
 import MERNCRUDImage from '../../assets/Images/MERN_CRUD.jpg';
 import EddieMusicImage from '../../assets/Images/Music_Page.jpg';
+import ReactWeatherImage from '../../assets/Images/React_weather.jpg';
 
 import "./body.css";
 
@@ -100,7 +101,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="card col-lg-3" style={{padding: '15px', margin: '15px'}}>
+      <div className="card col-lg-3" style={{padding: '5px', margin: '5px'}}>
         <img className="card-img-top" src={DCMetroImage} alt="DC Status App"/>
         <div className="card-body">
           <h5 className="card-title">DC Metro Status</h5>
@@ -113,7 +114,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="card col-lg-3" style={{padding: '15px', margin: '15px'}}>
+      <div className="card col-lg-3" style={{padding: '5px', margin: '5px'}}>
         <img className="card-img-top" src={MERNCRUDImage} alt="MERN CRUD App"/>
         <div className="card-body">
           <h5 className="card-title">CRUD utilizing MERN</h5>
@@ -130,7 +131,7 @@ const Body = () => {
 
       <div className="row justify-content-center container">
 
-      <div className="card col-lg-3" style={{padding: '15px', margin: '15px' }}>
+      <div className="card col-lg-3" style={{padding: '5px', margin: '5px' }}>
         <img className="card-img-top" src={EddieMusicImage} alt="Happenings App"/>
         <div className="card-body">
           <h5 className="card-title">Eddies Music Gear</h5>
@@ -143,20 +144,20 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="card col-lg-3" style={{padding: '15px', margin: '15px'}}>
-        <img className="card-img-top" src={DCMetroImage} alt="DC Status App"/>
+      <div className="card col-lg-3" style={{padding: '5px', margin: '5px'}}>
+        <img className="card-img-top" src={ReactWeatherImage} alt="React Weather"/>
         <div className="card-body">
-          <h5 className="card-title">Placeholder</h5>
-          <p className="card-text">Placeholder</p>
+          <h5 className="card-title">React Weather</h5>
+          <p className="card-text">Small weather page using React Bootstrap and calling backend API</p>
           <a 
-            href="https://saunderseddie.github.io/dc-metro-status/" 
+            href="https://exs-weather-react.herokuapp.com/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn btn-primary">Placeholder</a>
         </div>
       </div>
 
-      <div className="card col-lg-3" style={{padding: '15px', margin: '15px'}}>
+      <div className="card col-lg-3" style={{padding: '5px', margin: '5px'}}>
         <img className="card-img-top" src={DCMetroImage} alt="DC Status App"/>
         <div className="card-body">
           <h5 className="card-title">Placeholder</h5>
