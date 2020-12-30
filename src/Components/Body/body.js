@@ -88,7 +88,7 @@ const Body = () => {
       <br />
       <h1 className="text-center myTitleText">My Projects</h1>
       <div className="row justify-content-center container">
-      <div className="card col-lg-3" style={{padding: '15px', margin: '15px' }}>
+      <div className="card col-lg-3" style={{padding: '5px', margin: '5px' }}>
         <img className="card-img-top" src={JSOnlyCRUDImage} alt="myCRUD App"/>
         <div className="card-body">
           <h5 className="card-title">CRUD App</h5>
@@ -153,7 +153,7 @@ const Body = () => {
             href="https://exs-weather-react.herokuapp.com/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="btn btn-primary">Placeholder</a>
+            className="btn btn-primary">React Weather</a>
         </div>
       </div>
 
