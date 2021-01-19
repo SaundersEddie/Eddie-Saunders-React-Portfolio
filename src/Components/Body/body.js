@@ -1,11 +1,11 @@
 import React from "react";
 import EddieImage from "../../assets/Images/Eddie_ProfilePic.png";
-import HappeningsImage from "../../assets/Images/happenings.png";
 import DCMetroImage from "../../assets/Images/DC_Metro.jpg";
 import JSOnlyCRUDImage from '../../assets/Images/JS_OnlyCRUD.jpg';
 import MERNCRUDImage from '../../assets/Images/MERN_CRUD.jpg';
 import EddieMusicImage from '../../assets/Images/Music_Page.jpg';
 import ReactWeatherImage from '../../assets/Images/React_weather.jpg';
+import WDIIImage from '../../assets/Images/WDII.jpg';
 
 import "./body.css";
 
@@ -158,15 +158,15 @@ const Body = () => {
       </div>
 
       <div className="card col-lg-3" style={{padding: '5px', margin: '5px'}}>
-        <img className="card-img-top" src={DCMetroImage} alt="DC Status App"/>
+        <img className="card-img-top" src={WDIIImage} alt="What Day Is It App"/>
         <div className="card-body">
-          <h5 className="card-title">Placeholder</h5>
-          <p className="card-text">Placeholder</p>
+          <h5 className="card-title">What Day Is It?</h5>
+          <p className="card-text">Small MERN app, allowing a user to enter a date and see whats celebrated</p>
           <a 
-            href="https://saunderseddie.github.io/dc-metro-status/" 
+            href="https://national-day-of.herokuapp.com/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="btn btn-primary">Placeholder</a>
+            className="btn btn-primary">What Day Is It?</a>
         </div>
       </div>
     </div>

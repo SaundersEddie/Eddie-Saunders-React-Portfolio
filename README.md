@@ -29,7 +29,8 @@ Passed testing 30th July 2020
 ## Code Style and Technology
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). </br>
-This project used [Trailwind CSS](https://tailwindcss.com/)</br>
+This project uses [Bootstrap CSS](https://getbootstrap.com/) and a [Bootswatch theme](https://bootswatch.com/) </br>
+
 HTML5, CSS3, JavaScript
 
 ## Use
