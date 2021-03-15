@@ -1,13 +1,11 @@
 import React from "react";
 
-import EmailIcon from "../../assets/Images/emailIcon.png";
-import FacebookLogo from "../../assets/Images/facebookIcon.png";
-import GithubLogo from "../../assets/Images/gitHubLogo.png";
-import LinkedInLogo from "../../assets/Images/linkedInIcon.png";
-import ResumeLogo from "../../assets/Images/resumeLogo.png";
-import Pdf from "../../assets/documents/EddieSaundersResume.pdf";
-
-import "./header.css";
+import EmailIcon from "../assets/Images/emailIcon.png";
+import FacebookLogo from "../assets/Images/facebookIcon.png";
+import GithubLogo from "../assets/Images/gitHubLogo.png";
+import LinkedInLogo from "../assets/Images/linkedInIcon.png";
+import ResumeLogo from "../assets/Images/resumeLogo.png";
+import Pdf from "../assets/documents/EddieSaundersResume.pdf";
 
 const Header = () => {
   return (

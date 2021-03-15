@@ -1,1 +1,29 @@
-/* Testing Bootswatch */
+.myHeaderFont {
+    font-family: "Roboto", sans-serif;
+    font-size: x-large;
+  }
+  .myNavbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+  }
+  
+.socialMediaIcon {
+    opacity: 0.9;
+    max-width: 50px;
+    max-height: 50px;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .socialMediaIcon:hover {
+    opacity: 1;
+    border-bottom: 1px solid black;
+  }
+  
