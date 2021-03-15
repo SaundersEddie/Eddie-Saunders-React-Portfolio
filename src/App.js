@@ -2,15 +2,16 @@ import React, {Component} from "react";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
-// import OurHeader from "./Components/OurHeader";
-import Body from "./Components/Body/body";
 import OurFooter from "./Components/OurFooter";
+
+import Homepage from './Pages/Homepage';
+import Aboutpage from './Pages/Aboutpage';
+import Contactpage from './Pages/Contactpage';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 export default class App extends Component {
-
   render() {
     return (
       <Router>
@@ -26,14 +27,12 @@ export default class App extends Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-
-
-          <Body />
+          <Route path="/" exact render={() => <Homepage/>} />
+          <Route path="/about" render={() => <Aboutpage/>} />
+          <Route path="/contact" render={() => <Contactpage/>} />
           <OurFooter />
         </Container>
       </Router>
     );
   }
 }
-
-// export default App;
