@@ -7,7 +7,7 @@ import LinkedInLogo from "../assets/Images/linkedInIcon.png";
 import ResumeLogo from "../assets/Images/resumeLogo.png";
 import Pdf from "../assets/documents/EddieSaundersResume.pdf";
 
-function OurFooter() {
+export default function OurFooter() {
   return (
     <footer className="mt-5">
       <Container fluid={true}>
@@ -53,5 +53,3 @@ function OurFooter() {
     </footer>
   )
 };
-
-export default OurFooter;
