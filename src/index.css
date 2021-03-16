@@ -15,11 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./assets/Images/angry-sky.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #d4d4dc;
+
 }
 
 h1 {
@@ -29,4 +25,14 @@ h1 {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bg {
+  background-image: url("./assets/Images/background-2.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #d4d4dc;
 }
