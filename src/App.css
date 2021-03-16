@@ -1,3 +1,13 @@
+h1 {
+  color: #457399;
+}
+
+p {
+  color: lightgrey;
+  font-size: large;
+}
+
+
 .myHeaderFont {
     font-family: "Roboto", sans-serif;
     font-size: x-large;
