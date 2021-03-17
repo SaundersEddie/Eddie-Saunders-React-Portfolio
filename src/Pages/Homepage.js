@@ -6,24 +6,16 @@ import JSCRUD from '../assets/Images/JS_OnlyCRUD.jpg';
 import MusicPage from '../assets/Images/Music_Page.jpg';
 import Weather from '../assets/Images/React_weather.jpg';
 import WDII from '../assets/Images/WDII.jpg';
+import DCWide from '../assets/Images/DC_Banner.jpg';
 
 export default function Homepage() {
     return (
         <Container>
             <h1>My Current Project</h1>
             <hr></hr>
-            <CardDeck border>
-                <Card border="primary">
-                    <Card.Img variant="top" src={DCMetro} />
-                    <Card.Body>
-                        <Card.Title>My Washington DC</Card.Title>
-                        <Card.Text><a href="https://saunderseddie.github.io/dc-metro-status/" target="_blank" rel="noopener noreferrer">View Page</a></Card.Text>
-                        <Card.Text><a href="https://github.com/SaundersEddie/dc-metro-status" target="_blank" rel="noopener noreferrer">Github</a></Card.Text>
-                    </Card.Body>
-                </Card>
-
-                <Card border="primary">
-                    <Card.Img variant="top" src={DCMetro} />
+            <CardDeck>
+                <Card>
+                    <Card.Img variant="top" src={DCWide} />
                     <Card.Body>
                         <Card.Title>My Washington DC</Card.Title>
                         <Card.Text><a href="https://saunderseddie.github.io/dc-metro-status/" target="_blank" rel="noopener noreferrer">View Page</a></Card.Text>
