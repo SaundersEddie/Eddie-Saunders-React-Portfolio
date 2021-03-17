@@ -1,20 +1,54 @@
 import React, {Component} from "react";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { Container, Navbar, Nav } from 'react-bootstrap';
-
 import OurFooter from "./Components/OurFooter";
 
 import Homepage from './Pages/Homepage';
 import Aboutpage from './Pages/Aboutpage';
 import Contactpage from './Pages/Contactpage';
 
+import myBackGround from './assets/Images/background-3.jpg';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 export default class App extends Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      bg:{
+        backgroundImage: '',
+        position: '',
+        minWidth: '',
+        minHeight: '',
+        backgroundSize: '',
+        backgroundPosition: '',
+        backgroundColor: ''
+      }
+    }
+  }
+
+  componentWillMount() {
+      this.setState({
+        bg:{
+          backgroundImage: `url(${myBackGround})`,
+          position: "fixed",
+          minWidth: "100%",
+          minHeight: "100%",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundColor: "#d4d4dc"
+        }
+      })
+    }
+   
+
+
+
   render() {
     return (
-      <div className="bg">
+      <div style={this.state.bg}>
         <Router>
           <Container className="p-0" fluid={false}>
             <Navbar className="border-bottom" bg="transparent" expand="lg" sticky="top">
@@ -32,9 +66,7 @@ export default class App extends Component {
             <Route path="/about" render={() => <Aboutpage/>} />
             <Route path="/contact" render={() => <Contactpage/>} />
             <OurFooter />
-
           </Container>
-
         </Router>
       </div>
     );
