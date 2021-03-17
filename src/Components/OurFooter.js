@@ -11,7 +11,7 @@ export default function OurFooter() {
   return (
       <Container className="mt-5 fixed-bottom" fluid={false}>
         <Row className="border-top justify-content-between p-3">
-          <Col className="p-0" md={3} sm={12}>
+          <Col className="p-0" md={3} sm={12} style={{color:"#feda6a"}}>
             Eddie Saunders 2021
           </Col>
           <Col className="p-0" md={3} sm={12}>
