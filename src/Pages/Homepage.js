@@ -18,8 +18,8 @@ export default function Homepage() {
                     <Card.Img variant="top" src={DCWide} />
                     <Card.Body>
                         <Card.Title>My Washington DC</Card.Title>
-                        <Card.Text><a href="https://saunderseddie.github.io/dc-metro-status/" target="_blank" rel="noopener noreferrer">View Page</a></Card.Text>
-                        <Card.Text><a href="https://github.com/SaundersEddie/dc-metro-status" target="_blank" rel="noopener noreferrer">Github</a></Card.Text>
+                        <Card.Text><a href="https://mywashingtondc.herokuapp.com" target="_blank" rel="noopener noreferrer">View Page</a></Card.Text>
+                        <Card.Text><a href="https://github.com/SaundersEddie/myWashingtonDC" target="_blank" rel="noopener noreferrer">Github</a></Card.Text>
                     </Card.Body>
                 </Card>
             </CardDeck>
