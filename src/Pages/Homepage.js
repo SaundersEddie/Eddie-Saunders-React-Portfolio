@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, Carousel, CardDeck, Card } from 'react-bootstrap';
 
-import DCMetro from '../assets/Images/DC_Metro.jpg';
+import DCMetro from '../assets/Images/myDC.jpg';
 import JSCRUD from '../assets/Images/JS_OnlyCRUD.jpg';
 import MusicPage from '../assets/Images/Music_Page.jpg';
 import Weather from '../assets/Images/React_weather.jpg';
@@ -17,25 +17,27 @@ export default function Homepage() {
                 <Card>
                     <Card.Img variant="top" src={DCWide} />
                     <Card.Body>
-                        <Card.Title>My Washington DC</Card.Title>
+                        <Card.Title>JavaScript Selenium Testing</Card.Title>
                         <Card.Text><a href="https://mywashingtondc.herokuapp.com" target="_blank" rel="noopener noreferrer">View Page</a></Card.Text>
                         <Card.Text><a href="https://github.com/SaundersEddie/myWashingtonDC" target="_blank" rel="noopener noreferrer">Github</a></Card.Text>
                     </Card.Body>
                 </Card>
             </CardDeck>
             <br />
+
+
             <h1>Previous Projects:</h1>
             <hr></hr>
-            <Carousel>
+            <Carousel controls={false}>
                 <Carousel.Item interval={2500}>
                     <CardDeck>
                         <Card border="info">
                             <Card.Img variant="top" src={DCMetro} />
                             <Card.Body>
                                 <Card.Title>DC Metro Status</Card.Title>
-                                <Card.Text>A small JQuery app that displays current DC weather and metro status</Card.Text>
-                                <Card.Text><a href="https://saunderseddie.github.io/dc-metro-status/" target="_blank" rel="noopener noreferrer">View Page</a></Card.Text>
-                                <Card.Text><a href="https://github.com/SaundersEddie/dc-metro-status" target="_blank" rel="noopener noreferrer">Github</a></Card.Text>
+                                <Card.Text>A small React app that displays current DC weather and metro status</Card.Text>
+                                <Card.Text><a href="https://mywashingtondc.herokuapp.com" target="_blank" rel="noopener noreferrer">View Page</a></Card.Text>
+                                <Card.Text><a href="https://github.com/SaundersEddie/myWashingtonDC" target="_blank" rel="noopener noreferrer">Github</a></Card.Text>
                             </Card.Body>
                             <Card.Footer className="text-muted">Last Updated: 17th March 2021</Card.Footer>
                         </Card>
@@ -50,7 +52,11 @@ export default function Homepage() {
                             </Card.Body>
                             <Card.Footer className="text-muted">Last Updated: 17h March 2021</Card.Footer>
                         </Card>
+                    </CardDeck>
+                </Carousel.Item>
 
+                <Carousel.Item interval={2500}>
+                    <CardDeck>
                         <Card border="info">
                             <Card.Img variant="top" src={Weather} />
                             <Card.Body>
@@ -61,11 +67,7 @@ export default function Homepage() {
                             </Card.Body>
                             <Card.Footer className="text-muted">Last Updated: 17h March 2021</Card.Footer>
                         </Card>
-                    </CardDeck>
-                </Carousel.Item>
-
-                <Carousel.Item interval={2500}>
-                    <CardDeck>
+                   
                         <Card border="info">
                             <Card.Img variant="top" src={MusicPage} />
                             <Card.Body>
@@ -76,7 +78,12 @@ export default function Homepage() {
                             </Card.Body>
                             <Card.Footer className="text-muted">Last Updated Today</Card.Footer>
                         </Card>
+                    </CardDeck>
+                </Carousel.Item>
 
+
+                <Carousel.Item interval={2500}>
+                    <CardDeck>
                         <Card border="info">
                             <Card.Img variant="top" src={WDII} />
                             <Card.Body>
@@ -98,6 +105,7 @@ export default function Homepage() {
                         </Card>
                     </CardDeck>
                 </Carousel.Item>
+
             </Carousel>
         </Container>
     )
