@@ -35,7 +35,7 @@ HTML5, CSS3, JavaScript
 
 ## Use
 
-This portfolio can be viewed [here](https://eddie-saunders.herokuapp.com/)
+This portfolio can be viewed [here](https://hopeful-carson-d4896e.netlify.app/)
 
 ## Code Repository
 
