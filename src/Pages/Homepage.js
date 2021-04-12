@@ -6,7 +6,8 @@ import JSCRUD from '../assets/Images/JS_OnlyCRUD.jpg';
 import MusicPage from '../assets/Images/Music_Page.jpg';
 import Weather from '../assets/Images/React_weather.jpg';
 import WDII from '../assets/Images/WDII.jpg';
-import DCWide from '../assets/Images/DC_Banner.jpg';
+// import DCWide from '../assets/Images/DC_Banner.jpg';
+import PySel from '../assets/Images/PythonSelenium.png';
 
 export default function Homepage() {
     return (
@@ -15,11 +16,10 @@ export default function Homepage() {
             <hr></hr>
             <CardDeck>
                 <Card>
-                    <Card.Img variant="top" src={DCWide} />
+                    <Card.Img variant="top" src={PySel} />
                     <Card.Body>
                         <Card.Title>JavaScript Selenium Testing</Card.Title>
-                        <Card.Text><a href="https://mywashingtondc.herokuapp.com" target="_blank" rel="noopener noreferrer">View Page</a></Card.Text>
-                        <Card.Text><a href="https://github.com/SaundersEddie/myWashingtonDC" target="_blank" rel="noopener noreferrer">Github</a></Card.Text>
+                        <Card.Text><a href="https://github.com/SaundersEddie/python-selenium" target="_blank" rel="noopener noreferrer">View Github</a></Card.Text>
                     </Card.Body>
                 </Card>
             </CardDeck>
