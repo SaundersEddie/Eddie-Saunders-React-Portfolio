@@ -18,7 +18,7 @@ export default function Homepage() {
                 <Card>
                     <Card.Img variant="top" src={PySel} />
                     <Card.Body>
-                        <Card.Title>JavaScript Selenium Testing</Card.Title>
+                        <Card.Title>Python Selenium Testing</Card.Title>
                         <Card.Text><a href="https://github.com/SaundersEddie/python-selenium" target="_blank" rel="noopener noreferrer">View Github</a></Card.Text>
                     </Card.Body>
                 </Card>
